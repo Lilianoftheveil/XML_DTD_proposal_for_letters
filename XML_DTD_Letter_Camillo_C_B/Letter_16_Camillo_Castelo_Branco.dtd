@@ -1,0 +1,98 @@
+<!ELEMENT TEI.2 (teiHeader, text)>
+<!ELEMENT teiHeader (fileDesc)>
+<!ATTLIST teiHeader xml:lang CDATA>
+<!ATTLIST teiHeader type CDATA>
+<!ATTLIST teiHeader id CDATA>
+<!ATTLIST teiHeader from CDATA>
+<!ATTLIST teiHeader to CDATA>
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+<!ELEMENT titleStmt (title, respStmt)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT publicationStmt (publisher, pubPlace, date, media)>
+<!ELEMENT publisher(EMPTY)>
+<!ELEMENT pubPlace(EMPTY)>
+<!ELEMENT date(EMPTY)>
+<!ELEMENT media(item)>
+<!ATTLIST media type CDATA>
+<!ATTLIST media class CDATA>
+<!ELEMENT item (#PCDATA)>
+<!ELEMENT sourceDesc(letDesc, letHeading, physDesc, envOcc, letContents, bibl)>
+<!ELEMENT letDesc(letIdentifier)>
+<!ATTLIST letDesc status CDATA>
+<!ELEMENT letIdentifier(country, region, settlement, institution, repository, collection, idno)>
+<!ELEMENT country(#PCDATA)>
+<!ELEMENT region(#PCDATA)>
+<!ELEMENT settlement(#PCDATA)>
+<!ELEMENT institution(#PCDATA)>
+<!ELEMENT collection(#PCDATA)>
+<!ELEMENT idno(#PCDATA)>
+<!ATTLIST idno type CDATA>
+<!ELEMENT letHeading(author, addressee, placeLet, dataLet)>
+<!ELEMENT author(#PCDATA)>
+<!ELEMENT addressee(#PCDATA)>
+<!ELEMENT placeLet(#PCDATA)>
+<!ELEMENT dateLet(#PCDATA)>
+<!ELEMENT physDesc (type, support, extend, layout)>
+<!ELEMENT type(#PCDATA)>
+<!ELEMENT support(p)>
+<!ELEMENT p(#PCDATA)>
+<!ELEMENT extent(dimensions)>
+<!ELEMENT dimensions (height, width)>
+<!ELEMENT height (#PCDATA)>
+<!ATTLIST height units CDATA>
+<!ELEMENT width (#PCDATA)>
+<!ATTLIST width units CDATA>
+<!ELEMENT layout (p)>
+<!ELEMENT p (#PCDATA)>
+<!ATTLIST envOcc occ (yes | no) #REQUIRED>
+<!ELEMENT letContents (p)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT bibl(#PCDATA)>
+<!ELEMENT text (body)>
+<!ATTLIST text type CDATA>
+<!ATTLIST n type CDATA>
+<!ATTLIST from type CDATA>
+<!ATTLIST to type CDATA>
+<!ELEMENT body (pb)>
+<!ELEMENT pb (selo, destinatario, data, placeName, p, placeName)>
+<!ATTLIST pb xml:id CDATA>
+<!ELEMENT selo (item1, item2)>
+<!ELEMENT item1 (#CDATA)>
+<!ELEMENT item2 (#CDATA)>
+<!ELEMENT destinatario (#CDATA | choice)*>
+<!ELEMENT choice(abbr, expan)>
+<!ELEMENT abbr(#PCDATA | sup)*>
+<!ELEMENT sup(#PCDATA)>
+<!ELEMENT expan(#PCDATA)>
+<!ELEMENT data(#PCDATA)>
+<!ATTLIST data when CDATA>
+<!ELEMENT placeName(#PCDATA)>
+<!ATTLIST placeName where CDATA>
+<!ELEMENT p(l, persName, lb, pc, hi)>
+<!ATTLIST p xml:id CDATA>
+<!ELEMENT l(#PCDATA | choice)*>
+<!ELEMENT choice(abbr, expan)>
+<!ELEMENT abbr(#PCDATA | sup)*>
+<!ELEMENT sup(#PCDATA)>
+<!ELEMENT expan(#PCDATA)>
+<!ELEMENT persName(#PCDATA)>
+<!ELEMENT lb EMPTY>
+<!ELEMENT pc(#PCDATA)>
+<!ATTLIST pc force CDATA>
+<!ELEMENT hi(#PCDATA)>
+<!ATTLIST hi rend CDATA>
+<!ELEMENT placeName(#PCDATA)>
+<!ATTLIST placeName where CDATA>
+<!ELEMENT closer (salute)>
+<!ELEMENT salute(#PCDATA | choice)*>
+<!ELEMENT choice(abbr, expan)>
+<!ELEMENT abbr(#PCDATA | sup)*>
+<!ELEMENT sup(#PCDATA)>
+<!ELEMENT expan(#PCDATA)>
+<!ELEMENT author (signed)>
+<!ELEMENT signed (#PCDATA)>
+<!ELEMENT postscript (p)>
+<!ELEMENT p (#PCDATA)>

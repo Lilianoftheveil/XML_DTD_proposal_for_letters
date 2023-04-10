@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI.2>
+    <teiHeader
+    xml:lang="pt"
+    type="letter"
+    id="16"
+    from="Abel Acacio"
+    to="Camilo Castello Branco">
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Letter number 16 of the estate of Camillo Castello Branco (University of Minho)
+                </title>
+                <respStmt>
+                    <resp>edited by: </resp>
+                    <name>Lilian Oliveira</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher />
+                <pubPlace />
+                <date />
+                <media type="sticker" class="catalogation">
+                    <item>Nº - 16 -</item>
+                    <item>- 1884 -</item>
+                </media>
+            </publicationStmt>
+            <sourceDesc>
+                <letDesc status="uni">
+                    <letIdentifier>
+                        <country>Portugal</country>
+                        <region>Norte</region>
+                        <settlement>Vila Nova de Famalicão - São Miguel de
+                        Seide</settlement>
+                        <institution>Casa de Camilo - Centro de Estudos
+                        Camilianos</institution>
+                        <repository>Arquivo da Correspondência de Camilo
+                        Castelo Branco</repository>
+                        <collection>Arquivo da Correspondência a Camilo
+                        Castelo Branco: "Camillo Homenageado"</collection>
+                        <idno type="Arquivo da Correspondência a Camilo
+                        Castelo Branco-Camillo Homenageado">Carta 16</idno>
+                    </letIdentifier>
+                    <letHeading>
+                       <author>Abel Acacio</author>
+                       <addressee>Camilo Castelo Branco</addressee>
+                       <placeLet>Lamengo</placeLet>
+                       <dateLet>1884-06-20</dateLet>
+                    </letHeading>
+                    <physDesc>
+                       <type>Letter</type>
+                       <support>
+                          <p>One page folded and divided into 4 folios</p>
+                       </support>
+                       <extent>
+                          <dimensions>
+                             <height units="mm">
+                                121
+                             </height>
+                             <width units="mm">
+                                152
+                             </width>
+                          </dimensions>
+                       </extent>
+                       <layout>
+                           <p>First blank page</p>
+                        </layout>
+                    </physDesc>
+                    <envOcc occ="no" />
+                    <letContents>
+                        <p>Correspondence to Camilo Castelo Branco</p>
+                    </letContents>
+                    <bibl>Letter number 16 of the estate of Camillo Castello Branco, edited by Lilian Oliveira (Braga, University of Minho 2022)</bibl>
+                </letDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text type="letter" n="16" from="Abel Acacio" to="Camilo Castello Branco">
+        <body>
+
+            <pb xml:id="pag1" />
+                <!-- blank page, no information -->
+
+            <pb xml:id="pag2" />
+                <selo>
+                    <item1>Nº - 16 -</item1>
+                    <item2>- 1884 -</item2>
+                </selo>
+                <destinatario>
+                    <choice>
+                        <abbr>Ex.<sup>mo</sup></abbr>
+                        <expan>Excelentíssimo</expan>
+                    </choice>
+                    mestre e ami
+                </destinatario>
+                <data when = "20-06-1884">20/06/1884</data>
+                <placeName where="Lamengo, Portugal">Lamego,</placeName>
+
+                <p xml:id="paragrafo_1">    
+                    <l>Talvez que na verdades.<persName>Fialho</persName></l><lb />
+                    <l>não tivesse intenção de me beliscar;</l><lb />
+                    <l>a minha impressão porêm, ao acabar</l><lb />
+                    <l>de lêr-lho o folhetim, feito de mais a</l><lb />
+                    <l>mais depois do meu, foi de que elle</l><lb />
+                    <l>era uma resposta e um desforço. E</l><lb />
+                    <l>porcerto não deixa de entender-se prin<pc force="inter">-</pc></l><lb />
+                    <l>cipalmente comigo aquele epitheto de</l><lb />
+                    <l><hi rend="underline">velho precosissismo </hi>, bem como a insidia</l><lb />
+                    <l>do meu appellido embrulhado no <hi rend="underline">con</hi><pc force="inter">-</pc></l><lb />
+                    <l><hi rend="underline">selheira</hi> do <hi rend="underline">primo Bazilio</hi>.</l>
+                </p>
+
+                <p xml:id="paragrafo_2"> 
+                    <l>Não sou purista; falta-me a</l><lb />
+                    <l>auctoridade e a estudo. Acudo porêm par</l><lb />
+                    <l>elles, indignado</l>
+                </p>
+            
+
+            <pb xml:id="pag3" />
+                <p xml:id="paragrafo_3">
+                    <l>Fêz-me intensos pruridos de cu<pc force="inter">-</pc></l><lb />
+                    <l>riosidade a sua comunicação, respeito</l><lb />
+                    <l>ao tal Sr. <persName>Ignácio da Silva</persName>, de quem</l><lb />
+                    <l>nunca li palavra. Vou procurar obter</l><lb />
+                    <l>alguma coisa d'elle, e sobretudo o que a</l><pc force="inter">-</pc><lb />
+                    <l>caso haja que me toque pela porta.</l>
+                </p>
+
+                <p xml:id="paragrafo_4">
+                    <l>Esta minha carta hoje é par<pc force="inter">-</pc></l><lb />
+                    <l>ticularmente de gratidão pela ines<pc force="inter">-</pc></l><lb />
+                    <l>gotavel bonhomia do meu amigo, sem<pc force="inter">-</pc></l><lb />
+                    <l>pre prompto a responder a quem tan<pc force="inter">-</pc></l><lb />
+                    <l>to, e tão repetido, o importuna.</l>
+                </p>
+                
+                <p xml:id="paragrafo_5">
+                    <l>Ao mesmo tempo, quero apres<pc force="inter">-</pc></l><lb />
+                    <l>sar-me a communicar-lhes que, se a<pc force="inter">-</pc></l><lb />
+                    <l>caso voltar deve ao <placeName where="Porto, Portugal">Porto</placeName>, se não dê</l><lb />
+                    <l>a canieira de ir a <placeName where="Mattosinhos, Portugal">Mattosinhos</placeName>
+                    para</l>
+                    <!-- continue in the next page -->
+                </p>
+
+            <pb xml:id="pag4" />
+                <p xml:id="paragrafo_6">
+                    <l>me vêr, porque eu retirei d'ali no</l><lb />
+                    <l>salbado, a vir executar os meus traba<pc force="inter">-</pc></l><lb />
+                    <l>lhos de campo officiais, tenho anda<pc force="inter">-</pc></l><lb />
+                    <l>do pela <placeName where="Vouga rio, Portugal">Vouga</placeName>, e só para meiado de</l><lb />
+                    <l>agosto voltarei áquella praia, a passar</l><lb />
+                    <l>ali a estação balnear.</l>
+                </p>
+
+                <p xml:id="paragrafo_7">
+                    <l>Mas por então espero, ainda assim,</l><lb />
+                    <l>ter a haura d'uma entrevista com</l><lb />
+                    <l><choice>
+                            <abbr>V-Se.<sup>a</sup></abbr>
+                            <expan>Vossa Senhoria</expan>
+                        </choice>
+                    a, antes do meu regresso á</l><lb />
+                    <l>capital.</l>
+                </p>
+                
+
+                <closer>
+                    <salute>
+                        Seu
+                        <choice>
+                            <abbr>m.
+                                <sup>to</sup>
+                            </abbr>
+                            <expan>muito</expan>
+                        </choice>
+                        dedicado<lb />
+                        e admirador
+                    </salute>
+                </closer>
+
+                <author>
+                    <signed>AbelAcacio</signed>
+                </author>
+
+                <postscript>
+                    <p>N´este intervallo,<lb/>
+                    é-me dirigida a<lb/>
+                    correspondência<lb/>
+                    p. a [para] Lamego,<lb/>
+                    aonde venho de<lb/>
+                    q. do [quando] em<lb/>
+                    q. do [quando]</p>
+                </postscript>
+        </body>
+    </text>
+</TEI.2>
